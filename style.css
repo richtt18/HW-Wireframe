@@ -1,7 +1,63 @@
-h1,p {
-  color:pink
+html, body {
+	margin: 0 auto;
+	padding: 0;
+	background:#777;
+	color:#999;
+	text-align: center;
+	width: 960px;
 }
 
-body {
-	background-color: #555555
+header,nav,footer {
+	height: 80px;
+	line-height: 80px;
+	margin: 10px auto;
+	background: #555555;
+}
+
+section,aside {
+	height: 310px;
+	padding-top: 20px;
+	
+}
+
+
+section {
+	float: left;
+	background: #EBEBEB;
+	width: 495px;
+}
+
+aside {
+	float: right;
+	background:#EBEBEB;
+	width: 445px;
+}
+
+article {
+	background: #777;
+	color: #EBEBEB;
+	height: 210px;
+	width: 475px;
+	margin: 35px auto 0 auto;
+	padding-top: 5px;
+}
+
+.rapper {
+	height: 310px;
+  margin: 20px 0;
+}
+
+.clearfix::after {
+	content:"";
+	display: block;
+	clear: both;
+}
+
+.art-sub {
+	background: #EBEBEB;
+  color: #777;
+  margin: 10px auto;
+  width: 430px;
+  height: 60px;
+  line-height: 60px;
 }
